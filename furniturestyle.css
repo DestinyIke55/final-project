@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root{
+    --color1: #FB923C;
+    --color2:  #aca7a6;
+    --padding: 10rem;
+    --margin-left: 8rem;
+}
+
+.header{
+    background-color: white;
+    position: relative;
+
+}
+
+.phone{
+    margin-top: 1.9rem;
+    margin-left: 9rem;
+    text-decoration: none;
+    position: absolute;
+}
+
+.mail{
+    margin-top: 1.9rem;
+    margin-left: 17rem;
+    text-decoration: none;
+    position: absolute;
+}
+
+#contact{
+    padding: .9rem;
+    font-size: 12px;
+    font-weight: 520;
+}
+
+.socials{
+    margin-top: 1.9rem;
+    margin-left: 67rem;
+    position: absolute;
+}
+
+#socialicon{
+    padding-left: 1rem;
+}
+
+#line{
+    margin-top: 1rem;
+    width: 65rem;
+    background-color: #666362;
+    margin-left: 1rem;
+}
+  
+
+#logo1{
+    position: absolute;
+   font-size: 24px;
+}
+
+.navsection{
+    position: absolute;
+    margin-top: 5rem;
+    margin-left: var(--padding);
+}
+
+nav{
+    display: flex;
+    margin-left: 19rem;
+    margin-top: .3rem;
+}
+
+a{
+    padding-left: 2rem;
+    color: #666362;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.signin{
+    margin-left: 53rem;
+    margin-top: -1.1rem;
+    
+}
+
+#signin{
+    color: var(--color1);
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.signup{
+    position: absolute;
+    margin-left: 57rem;
+    margin-top: -28px;
+}
+
+#signbtn{
+    border-style: none;
+    border-radius: 50px;
+    height: 40px;
+    font-size: 13px;
+    width: 99px;
+    color: #fff;
+    background-color: var(--color1);
+}
+
+h1{
+    position: absolute;
+    margin-top: 11.5rem;
+    margin-left: var(--margin-left);
+    font-size: 60px;
+    color: #383534;
+}
+
+p{
+    color: var(--color2);
+}
+
+#explore{
+    position: absolute;
+    margin-top: 25rem;
+    margin-left: var(--margin-left);
+    font-size: 19px;
+    line-height: 1.5;
+}
+
+#offerbtn{
+    position: absolute;
+    margin-top: 30rem;
+    margin-left: 6rem;
+    border-style: groove;
+    border-radius: 50px;
+    height: 45px;
+    font-size: 13px;
+    width: 140px;
+    color: #383534;
+    background-color: #fff;
+    
+}
+
+#playbtn{
+    position: absolute;
+    margin-top: 30rem;
+    margin-left: 16rem;
+    border-radius: 100%;
+    height: 35px;
+    width: 35px;
+    border-style: none;
+    background-color: #fff;
+    box-shadow: 0 9px 20px -9px
+}
+
+#watch{
+    position: absolute;
+    margin-top: 31rem;
+    margin-left: 19rem;
+    color: var(--color2);
+}
+
+.mainimage{
+    position: absolute;
+    margin-left: 42rem;
+    margin-top: 11rem;
+}
+
+#firstimg{
+    height: 380px;
+}
+
+.info{
+    margin-top: 37rem;
+}
+
+.info{
+    display: flex;
+    
+}
+
+.section{
+    text-align: center;
+    padding: 20px;
+}
+
+#heading{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.description{
+    font-size: 14px;
+    color: var(--color2);
+}
+
+.checkout{
+
+}
+
