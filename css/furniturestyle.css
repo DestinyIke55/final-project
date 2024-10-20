@@ -1,0 +1,1491 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+:root{
+    --color1: #FB923C;
+    --color2:  #96928f;
+    --color3: #f5e1e1;
+    --padding: 10rem;
+    --margin-left: 7rem;
+}
+
+header{
+    background-color: white;
+    position: relative; 
+}
+        
+
+.phone{
+    margin-top: 1.9rem;
+    margin-left: 9rem;
+    text-decoration: none;
+    position: absolute;
+}
+
+
+
+.mail{
+    margin-top: 1.9rem;
+    margin-left: 17rem;
+    text-decoration: none;
+    position: absolute;
+}
+
+
+.line{
+    margin-top: 1rem;
+    width: 65rem;
+    background-color: #666362;
+    margin-left: 1rem;
+}
+
+
+#contact{
+    padding: .9rem;
+    font-size: 12px;
+    font-weight: 520;
+}
+
+.socials{
+    margin-top: 1.9rem;
+    margin-left: 67rem;
+    position: absolute;
+}
+
+#socialicon{
+    padding-left: 1rem;
+}
+
+#logo1{
+    position: absolute;
+   font-size: 24px;
+   color: #383534;
+}
+
+.navsection{
+    position: absolute;
+    margin-top: 5rem;
+    margin-left: var(--padding);
+}
+
+nav{
+    display: flex;
+    margin-left: 19rem;
+    margin-top: -1rem;
+    height: 80px;
+    width: 90%;
+}
+
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a{
+    font-size: 17px;
+}
+
+
+.checkbtn{
+    font-size: 30px;
+    float: right;
+    line-height: 80px;
+    cursor: pointer;
+    margin-right: 40px;
+    margin-top: -2rem;
+    margin-left: 8rem;
+    display: none;
+}
+
+#check{
+    display: none;
+}
+
+@media (max-width: 952px) {
+    nav ul li a{
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 858px) {
+    .checkbtn{
+        display: block;
+    }
+    ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+    }
+    nav ul li{
+        display: block;
+    }
+    nav ul li a{
+        font-size: 20px;
+    }
+}
+
+a{
+    padding-left: 2rem;
+    color: #666362;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.signin{
+    margin-left: 53rem;
+    margin-top: -3rem;
+}
+
+#signin{
+    color: var(--color1);
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.signup{
+    position: absolute;
+    margin-left: 57rem;
+    margin-top: -28px;
+}
+
+#signbtn{
+    border-style: none;
+    border-radius: 50px;
+    height: 40px;
+    font-size: 13px;
+    width: 99px;
+    color: #fff;
+    background-color: var(--color1);
+}
+
+h1{
+    position: absolute;
+    margin-top: 11.5rem;
+    margin-left: var(--margin-left);
+    font-size: 60px;
+    color: #383534;
+}
+
+p{
+    color: var(--color2);
+}
+
+#explore{
+    position: absolute;
+    margin-top: 25rem;
+    margin-left: var(--margin-left);
+    font-size: 19px;
+    line-height: 1.5;
+}
+
+#offerbtn{
+    position: absolute;
+    margin-top: 30rem;
+    margin-left: 6rem;
+    border-style: groove;
+    border-width: thin;
+    border-radius: 50px;
+    height: 45px;
+    font-size: 13px;
+    width: 140px;
+    color: #383534;
+    background-color: #fff;
+}
+
+#playbtn{
+    position: absolute;
+    margin-top: 30rem;
+    margin-left: 14rem;
+    border-radius: 100%;
+    height: 35px;
+    width: 35px;
+    border-style: none;
+    background-color: #fff;
+    box-shadow: 0 9px 20px -9px;
+}
+
+#watch{
+    position: absolute;
+    margin-top: 31rem;
+    margin-left: 17rem;
+    color: var(--color2);
+}
+
+.mainimage{
+    position: absolute;
+    margin-left: 42rem;
+    margin-top: 11rem;
+}
+
+#firstimg{
+    height: 380px;
+}
+
+.info{
+    position: absolute;
+    display: flex;
+    margin-top: 32rem;
+    margin-left: 7rem;
+    background-color: #fff;
+    width: 57rem;
+    height: 6rem;
+    border-radius: 100px;
+    box-shadow: 6px 6px 15px -15px;
+}
+
+.section{
+    text-align: center;
+    padding-top: 2rem;
+}
+
+#heading{
+    font-size: 15px;
+    font-weight: bold;
+    color: var(--color2);
+}
+
+#description{
+    font-size: 14px;
+    color: var(--color2);
+    margin-left: 5rem;
+    line-height: 2;
+}
+
+#head{
+    margin-left: 3rem;
+    font-size: 15px;
+    font-weight: bold;
+    color: var(--color2);
+}
+
+#descript{
+    font-size: 14px;
+    color: var(--color2);
+    margin-left: 3rem;
+    line-height: 2;
+}
+
+#no-cost{
+    margin-left: 6rem;
+    line-height: 2;
+    font-size: 14px;
+    color: var(--color2);
+}
+
+#see-more{
+    margin-top: 30px;
+    border-style: none;
+    position: absolute;
+    border-style: groove;
+    border-width: thin;
+    border-radius: 100px;
+    height: 40px;
+    font-size: 13px;
+    width: 100px;
+    color: #383534;
+    background-color: #fff;
+}
+
+section{
+    position: relative;
+    background-color: #fff;
+    
+}
+
+
+/* home page ends */
+
+.outlet{
+    position: absolute;
+    display: flex;
+    margin-top: 43rem;
+    margin-left: 12rem;
+    
+}
+
+#stores{
+    font-size: 25px;
+    font-weight: 800;
+    padding-left: 4rem;
+    color: var(--color2);
+}
+
+#store{
+    padding-left: 4rem;
+    color: var(--color2);
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 4px;
+}
+
+.products{
+    position: relative;
+    display: flex;
+}
+
+.dine-table{
+    position: absolute;
+    margin-top: 53rem;
+    margin-left: 8rem;
+    background-color: var(--color3);
+    width: 23rem;
+    height: 11.7rem;
+    border-radius: 20px;
+}
+
+#dinning{
+    position: absolute;
+    font-weight: bolder;
+    margin-top: 4rem;
+    margin-left: 1rem;
+    font-size: 20px;
+}
+
+#more{
+    position: absolute;
+    margin-top: 7rem;
+    margin-left: 1rem;
+    border-style: none;
+    background-color: #fff;
+    height: 40px;
+    width: 90px;
+    border-radius: 50px;
+    font-weight: bold;
+}
+
+#table-img{
+    position: absolute;
+    margin-top: 1rem;
+    margin-left: 8rem;
+    height: 170px;
+}
+
+.chair{
+    position: absolute;
+    margin-top: 53rem;
+    margin-left: 33rem;
+    background-color: var(--color3);
+    width: 21rem;
+    height: 11.7rem;
+    border-radius: 20px;
+}
+
+#chairs{
+    margin-top: 4rem;
+    font-weight: bolder;
+    margin-top: 4rem;
+    margin-left: 3rem;
+    font-size: 20px;
+}
+
+#chair-img{
+    margin-top: -6rem;
+    margin-left: 8rem;
+}
+
+#more-chair{
+    margin-top: 1.4rem;
+    position: absolute;
+    border-style: none;
+    background-color: #fff;
+    height: 40px;
+    width: 90px;
+    border-radius: 50px;
+    font-weight: bold;
+}
+
+.office-desk{
+    position: absolute;
+    margin-top: 53rem;
+    margin-left: 56rem;
+    background-color: var(--color3);
+    width: 23rem;
+    height: 11.7rem;
+    border-radius: 20px;
+}
+
+#desk{
+    margin-top: 4rem;
+    font-weight: bolder;
+    margin-top: 4rem;
+    margin-left: 2rem;
+    font-size: 20px;
+}
+
+#more-desk{
+    position: absolute;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    font-weight: bolder;
+    border-style: none;
+    background-color: #fff;
+    height: 40px;
+    width: 90px;
+    border-radius: 50px;
+    font-weight: bold;
+}
+
+#desk-img{
+    position: absolute;
+    margin-top: -4.8rem;
+    margin-left: 7rem;
+}
+
+#check-product{
+    position: absolute;
+    margin-top: 71rem;
+    margin-left: var(--margin-left);
+    background-color:  #f7f0ee;
+    color: orange;
+    font-weight: bolder;
+    height: 45px;
+    width: 170px;
+    border-style: none;
+    border-radius: 40px;
+}
+
+#craft{
+    position: absolute;
+    margin-top: 75rem;
+    margin-left: var(--margin-left);
+}
+
+.best-seller{
+    position: absolute;
+    margin-top: 74rem;
+    margin-left: 55rem;
+    display: flex;
+}
+
+#seller-btn{
+    position: absolute;
+    background-color: #fff;
+    border-style: groove;
+    border-radius: 40px;
+    height: 40px;
+    width: 100px;
+    margin-left: -4rem;
+}
+
+#chr{
+    position: absolute;
+    margin-top: .4rem;
+    padding-left: 6rem;
+    color: var(--color2);
+}
+
+#tab{
+    position: absolute;
+    margin-top: .4rem;
+    padding-left: 11rem;
+    color: var(--color2);
+}
+
+#bed{
+    position: absolute;
+    margin-top: .4rem;
+    padding-left: 16rem;
+    color: var(--color2);
+}
+
+#closet{
+    position: absolute;
+    margin-top: .4rem;
+    padding-left: 21rem;
+    color: var(--color2);
+}
+
+.all-chairs{
+    position: absolute;
+    margin-top: 85rem;
+    margin-left: var(--margin-left);
+    padding-right: 2rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    justify-content: space-evenly;
+    
+}
+
+#chair-img1{
+    padding-left: 1rem;
+    height: 280px;
+}
+
+#chair-img2{
+    padding-left: 1rem;
+    height: 280px;
+}
+
+#chair-img3{
+    padding-left: 1rem;
+    height: 280px;
+}
+
+#chair-img4{
+    padding-left: 1rem;
+    height: 280px;
+}
+
+#details{
+    margin-left: 2rem;
+    line-height: 2;
+}
+
+#price{
+    color: var(--color2);
+    font-size: 15px;
+    text-decoration: line-through;
+}
+
+#cart-btn{
+    position: absolute;
+    background-color: var(--color2);
+    border-style: none;
+    border-radius: 50px;
+    height: 35px;
+    width: 35px;
+    margin-top: -2.4rem;
+    margin-left: 12rem;
+}
+
+#cart-img{
+    position: absolute;
+    margin-top: -.6rem;
+    margin-left: -.6rem;
+}
+
+.elevate{
+    position: absolute;
+    margin-top: 140rem;
+    margin-left: var(--margin-left);
+    font-size: 25px;
+}
+
+#experience{
+    margin-top: 2rem;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+.check1{
+    position: absolute;
+    margin-top: 159rem;
+    margin-left: var(--margin-left);
+}
+
+.check2{
+    position: absolute;
+    margin-top: 161.5rem;
+    margin-left: var(--margin-left);
+}
+
+.check3{
+    position: absolute;
+    margin-top: 164rem;
+    margin-left: var(--margin-left);
+}
+
+#checkicon{
+    position: absolute;
+    background-color: var(--color1);
+    border-radius: 50px;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    padding-top: .5rem;
+}
+
+h5{
+    margin-top: .5rem;
+    margin-left: 3rem;
+}
+
+#shop-now-btn{
+    position: absolute;
+    margin-top: 2rem;
+    margin-left: -2rem;
+    color: #fff;
+    background-color: #000000;
+    border-style: none;
+    border-radius: 50px;
+    height: 42px;
+    width: 120px;
+    font-weight: 700;
+}
+
+.bed-design{
+    position: absolute;
+    margin-top: 139.5rem;
+    margin-left: 48rem;
+}
+
+#bed-frame{
+    position: absolute;
+    
+}
+
+.craftman{
+    position: absolute;
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin-top: -32rem;
+    margin-left: -6rem;
+    width: 290px;
+    height: 80px;
+    box-shadow: 0 10px 19px -19px;
+}
+
+#mark{
+    position: absolute;
+    margin-left: 1rem;
+    padding-top: .5rem;
+}
+
+#mark-anderson{
+    position: absolute;
+    margin-top: 1rem;
+    margin-left: 5.5rem;
+    font-size: 15px;
+}
+
+#craftmanship{
+    position: absolute;
+    margin-top: 1.5rem;
+    margin-left: 5.5rem;
+    font-size: 13px;
+    color: var(--color2);
+}
+
+#comment{
+    position: absolute;
+    background-color: var(--color1);
+    border-radius: 50px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    padding-top: .7rem;
+    margin-left: 15rem;
+}
+
+#user-check{
+    position: absolute;
+    background-color: var(--color1);
+    border-radius: 10px;
+    transform: rotate(346deg);
+    height: 34px;
+    width: 34px;
+    text-align: center;
+    padding-top: .5rem;
+    padding-left: .2rem;
+    margin-top: -17rem;
+    margin-left: -2.7rem;
+}
+
+#remark-icon{
+    position: absolute;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-top: -3rem;
+    margin-left: 13rem;
+    padding-left: 1rem;
+    padding-top: 1.5rem;
+    width: 300px;
+    height: 70px;
+    box-shadow: 0 10px 19px -19px;
+}
+
+#remark{
+    position: absolute;
+    margin-left: 16rem;
+    margin-top: -1.5rem;
+}
+
+.bedroom-decor{
+    position: absolute;
+    margin-top: 180rem;
+    display: flex;
+   
+}
+
+.sofa{
+    margin-left: var(--margin-left);
+    background-color: var(--color3);
+    height: 160px;
+    width: 370px;
+    border-radius: 20px;
+}
+
+#sofa{
+    position: absolute;
+    margin-top: 2.5rem;
+    margin-left: 4rem;
+    font-size: 24px;
+}
+
+#sofa-img{
+    position: absolute;
+    margin-left: 9rem;
+    height: 160px;
+}
+
+#more-sofa{
+    position: absolute;
+    border-style: none;
+    background-color: #fff;
+    height:35px;
+    width: 80px;
+    border-radius: 40px;
+    margin-top: 4.5rem;
+    margin-left: 1.2rem;
+}
+
+.night-stand{
+    margin-left: 1rem;
+    background-color: var(--color3);
+    height: 160px;
+    width: 370px;
+    border-radius: 20px;
+}
+
+#stand{
+    position: absolute;
+    margin-top: 2.5rem;
+    margin-left: 2rem;
+    font-size: 24px;
+}
+
+#stand-img{
+    position: absolute;
+    margin-left: 9rem;
+    height: 160px;
+}
+
+#more-stand{
+    position: absolute;
+    border-style: none;
+    background-color: #fff;
+    height:35px;
+    width: 80px;
+    border-radius: 40px;
+    margin-top: 4.5rem;
+    margin-left: 1.5rem;
+}
+
+.bedroom-sale{
+    margin-left: 1rem;
+    background-color:  var(--color3);
+    height: 160px;
+    width: 370px;
+    border-radius: 20px;
+}
+
+#room{
+    position: absolute;
+    margin-top: 2.5rem;
+    margin-left: 2rem;
+    font-size: 24px;
+}
+
+#bed-img{
+    position: absolute;
+    margin-left: 8rem;
+    height: 160px;
+}
+
+#more-bed{
+    position: absolute;
+    border-style: none;
+    background-color: #fff;
+    height:35px;
+    width: 80px;
+    border-radius: 40px;
+    margin-top: 4.5rem;
+    margin-left: 1.5rem;
+}
+
+.mood{
+    position: absolute;
+    margin-top: 200rem;
+    margin-left: 49rem;
+    font-size: 28px;
+}
+
+#experience{
+    font-weight: lighter;
+    font-size: 15px;
+    margin-top: 1rem;
+}
+
+.living-room{
+    position: absolute;
+    margin-top: 200rem;
+    margin-left: 12rem;
+}
+
+.interior-design{
+    position: absolute;
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin-top: -32rem;
+    margin-left: -6rem;
+    width: 290px;
+    height: 80px;
+    box-shadow: 0 10px 19px -19px;
+
+}
+
+#victor{
+    position: absolute;
+    margin-left: 1rem;
+    padding-top: .5rem;
+}
+
+#victor-adams{
+    position: absolute;
+    margin-top: 1rem;
+    margin-left: 5.5rem;
+    font-size: 15px;
+}
+
+#styling{
+    position: absolute;
+    color: var(--color2);
+    font-size: 11px;
+    margin-left: 5.6rem;
+    margin-top: 1rem;
+}
+
+#checkicon2{
+    position: absolute;
+    background-color: var(--color1);
+    border-radius: 50px;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    padding-top: .4rem;
+    font-size: 19px;
+}
+
+#properties{
+    font-size: 15px;
+    line-height: 2;
+}
+
+.pg7{
+    position: absolute;
+    margin-top: 244rem;
+    margin-left: 3rem;
+    background-color: #000000;
+    height: 29rem;
+    width: 95%;
+
+}
+
+#satisfaction{
+    position: absolute;
+    color: #fff;
+    font-size: 50px;
+    font-weight: 550;
+    margin-top: 4rem;
+    margin-left: 7rem;
+}
+
+#pride{
+    position: absolute;
+    color: #fff;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 2;
+    margin-top: 12rem;
+    margin-left: 7rem;
+}
+
+.fa-star{
+    padding-left: .4rem;
+}
+
+.stars1{
+    position: absolute;
+    display: flex;
+    margin-top: 22rem;
+    margin-left: 7rem;
+}
+
+.stars2{
+    position: absolute;
+    display: flex;
+    margin-top: 22rem;
+    margin-left: 19rem;
+}
+
+.rate{
+    position: absolute;
+    margin-top: 2rem;
+    margin-left: .5rem;
+    font-weight: 500;
+}
+
+#rate{
+    color: #fff;
+}
+
+#rating{
+    font-weight: 600;
+}
+
+#quality{
+    position: absolute;
+    color: #fff;
+    font-weight: 600;
+    margin-top: 1rem;
+    
+}
+
+#quality2{
+    position: absolute;
+    color: #fff;
+    font-weight: 600;
+    margin-top: 1rem;
+}
+
+.support{
+    position: absolute;
+    margin-left: 57rem;
+    margin-top: 5rem;
+}
+
+#quality-craft{
+    font-size: 30px;
+    color: #fff;
+    margin-top: -.2rem;
+    margin-left: -8rem;
+}
+
+#handcrafted{
+    position: absolute;
+    color: #fff;
+    font-size: 14px;
+    line-height: 2;
+    margin-left: -8rem;
+}
+
+.fa-couch{
+    position: absolute;
+    margin-left: -11rem;
+    margin-top: .5rem;
+    font-size: 25px;
+
+}
+
+.fa-hammer{
+    position: absolute;
+    margin-left: 46.3rem;
+    margin-top: .3rem;
+    font-size: 25px;
+}
+
+#selection{
+    font-size: 30px;
+    color: #fff;
+    margin-top: 14rem;
+    margin-left: 49rem;
+}
+
+#discover{
+    position: absolute;
+    color: #fff;
+    font-size: 14px;
+    line-height: 2;
+    margin-left: 49rem;
+}
+
+.fa-angle-down{
+    position: absolute;
+    margin-left: 46.5rem;
+    margin-top: .3rem;
+    font-size: 20px;
+}
+
+#dedicate{
+    font-size: 30px;
+    color: #fff;
+    margin-top: 5rem;
+    margin-left: 49rem;
+}
+
+#quickly{
+    position: absolute;
+    color: #fff;
+    font-size: 14px;
+    line-height: 2;
+    margin-left: 49rem;
+}
+
+#collection{
+    position: absolute;
+    margin-top: 277rem;
+    color: #8b5502;
+    font-weight: 800;
+    font-size: 15px;
+    margin-left: 45%;
+}
+
+#gallery{
+    position: absolute;
+    margin-top: 279rem;
+    color: #383534;
+    font-size: 47px;
+    margin-left: 29rem;
+}
+
+#inspire{
+    position: absolute;
+    margin-top: 283rem;
+    color: var(--color2);
+    font-size: 20px;
+    margin-left: 33rem;
+}
+
+.gallerys{
+    position: absolute;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    justify-content: space-evenly;
+    margin-top: 288rem;
+    
+    margin-left: var(--margin-left);
+}
+
+.gallery1{
+    position: absolute;
+    padding-top: 1rem;
+    
+}
+
+.gallery2{
+    position: absolute;
+    padding-top: 1rem;
+    margin-left: 21rem;
+}
+
+.gallery3{
+    position: absolute;
+    padding-top: 1rem;
+    margin-left: 40rem;
+
+}
+
+.gallery4{
+    position: absolute;
+    padding-top: 2rem;
+    margin-top: 20rem;
+}
+
+.gallery5{
+    position: absolute;
+    margin-top: 20rem;
+    margin-left: 31rem;
+    padding-top: 2rem;
+}
+
+.gallery6{
+    position: absolute;
+    padding-top: 2rem;
+    margin-top: 20rem;
+    margin-left: 48.5rem;
+}
+
+#gallery-img1{
+    height: 20rem;
+}
+
+#gallery-img2{
+    height: 20rem;
+    width: 18rem;
+}
+
+#gallery-img3{
+    height: 20rem;
+    width: 30rem;
+}
+
+#gallery-img4{
+    height: 17rem;
+    width: 30rem;
+}
+
+#gallery-img5{
+    height: 17rem;
+    width: 17rem;
+}
+
+#gallery-img6{
+    height: 17rem;
+    width: 22rem;
+}
+
+
+#testimonial-section{
+    position: absolute;
+    margin-top: 332rem;
+    color: #8b5502;
+    font-weight: 800;
+    font-size: 15px;
+    margin-left: 45%;
+}
+
+#customer-opinion{
+    position: absolute;
+    margin-top: 334rem;
+    color: #383534;
+    font-size: 47px;
+    margin-left: 29rem;
+}
+
+
+#stories{
+    position: absolute;
+    margin-top: 338rem;
+    color: var(--color2);
+    font-size: 20px;
+    margin-left: 30.5rem;
+}
+
+#cust{
+    margin-left: 35%;
+}
+
+.testimonials{
+    position: absolute;
+    margin-top: 350rem;
+    display: flex;
+    color: var(--color2);
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+#first-testimonial{
+    margin-left: -10rem;
+}
+
+
+#second-testimonial{
+    margin-left: 10rem;
+}
+
+
+#third-testimonial{
+    margin-left: 14rem;
+}
+
+.fa-quote-left{
+    font-size: 50px;
+}
+
+.star-rate1{
+    position: absolute;
+    margin-top: 16.7rem;
+    margin-left: 7rem;
+}
+
+.star-rate2{
+    position: absolute;
+    margin-top: 16.7rem;
+    margin-left: 42rem;
+}
+
+
+
+#michael-pic{
+    position: absolute;
+    border-radius: 20px;
+    margin-top: 16rem;
+    margin-left: 25rem;
+}
+
+#michael{
+    position: absolute;
+    margin-top: 16.7rem;
+    margin-left: 29rem;
+    color: #000000;
+    font-weight: 600;
+}
+
+
+#marta-pic{
+    position: absolute;
+    border-radius: 20px;
+    margin-top: 16rem;
+    margin-left: 63rem;
+}
+
+#marta{
+    position: absolute;
+    margin-top: 16.7rem;
+    margin-left: 67rem;
+    color: #000000;
+    font-weight: 600;
+}
+
+.final-page{
+    position: absolute;
+    background: #000;
+    background-image: url(../assets/Frame\ 48096246.png);
+    margin-top: 380rem;
+    width: 100%;
+    height: 30rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+#our-review{
+    position: absolute;
+    color: #fff;
+    font-size: 40px;
+    margin-top: 12rem;
+    margin-left: 58rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 430px) {
+    header{
+        background-color: white;
+        position: relative;
+        
+    }
+    .phone{
+        display: none;
+    }
+
+    .line{
+     
+        display: none;
+    }
+
+    .socials{
+        display: none;
+    }
+
+    .mail{
+        display: none;
+    }
+
+    #logo1{
+        position: absolute;
+        margin-left: -7rem;
+        margin-top: -2.5rem;
+        color: #383534;
+    }
+
+    nav{
+        display: flex;
+        margin-left: 6rem;
+        margin-top: -2rem;
+    }
+
+    .signin{
+        margin-left: 1rem;
+        margin-top: -5rem;
+    }
+    
+    #signin{
+        color: var(--color1);
+        font-size: 13px;
+        text-decoration: none;
+    }
+    
+    .signup{
+        position: absolute;
+        margin-left: 4rem;
+        margin-top: -2rem;
+    }
+    
+    #signbtn{
+        border-style: none;
+        border-radius: 50px;
+        height: 40px;
+        font-size: 13px;
+        width: 99px;
+        color: #fff;
+        background-color: var(--color1);
+    }
+
+    .home{
+        position: relative;
+    }
+    
+    h1{
+        position: absolute;
+        margin-top: 7rem;
+        margin-left: 1rem;
+        font-size: 40px;
+        color: #383534;
+    }
+    
+    #explore{
+        position: absolute;
+        color: var(--color2);
+        font-size: 16px;
+        margin-top: 16rem;
+        margin-left: 1rem;
+        line-height: 1.5;
+    }
+
+    #offerbtn{
+        position: absolute;
+        margin-top: 20rem;
+        margin-left: 1rem;
+        border-style: groove;
+        border-width: thin;
+        border-radius: 50px;
+        height: 45px;
+        font-size: 13px;
+        width: 140px;
+        color: #383534;
+        background-color: #fff;
+    }
+    
+    #playbtn{
+        position: absolute;
+        margin-top: 20rem;
+        margin-left: 9rem;
+        border-radius: 100%;
+        height: 35px;
+        width: 35px;
+        border-style: none;
+        background-color: #fff;
+        box-shadow: 0 9px 20px -9px;
+    }
+
+    #watch{
+        position: absolute;
+        margin-top: 21rem;
+        margin-left: 12rem;
+        color: var(--color2);
+    }
+
+    .mainimage{
+        position: absolute;
+        margin-left: 1rem;
+        margin-top: 24rem;
+    }
+    
+    #firstimg{
+        height: 260px;
+    }
+    
+    .info{
+        position: absolute;
+        display: flex;
+        margin-top: 37rem;
+        margin-left: 1rem;
+        background-color: #fff;
+        width: 57rem;
+        height: 6rem;
+        border-radius: 100px;
+        box-shadow: 6px 6px 15px -15px;
+        display: none;
+    }
+    
+    .section{
+        text-align: center;
+        padding-top: 2rem;
+    }
+    
+    #heading{
+        font-size: 15px;
+        font-weight: bold;
+        color: var(--color2);
+    }
+    
+    #description{
+        font-size: 14px;
+        color: var(--color2);
+        margin-left: 5rem;
+        line-height: 2;
+    }
+    
+    #head{
+        margin-left: 3rem;
+        font-size: 15px;
+        font-weight: bold;
+        color: var(--color2);
+    }
+    
+    #descript{
+        font-size: 14px;
+        color: var(--color2);
+        margin-left: 3rem;
+        line-height: 2;
+    }
+    
+    #no-cost{
+        margin-left: 6rem;
+        line-height: 2;
+        font-size: 14px;
+        color: var(--color2);
+    }
+
+    
+    #see-more{
+        margin-top: 30px;
+        border-style: none;
+        position: absolute;
+        border-style: groove;
+        border-width: thin;
+        border-radius: 100px;
+        height: 40px;
+        font-size: 13px;
+        width: 100px;
+        color: #383534;
+        background-color: #fff;
+    }
+
+    section{
+        position: relative;
+        background-color: #fff;
+    }
+
+    /* Page 2 */
+    .outlet{
+        position: absolute;
+        display: flex;
+        margin-top: 43rem;
+        margin-left: -1rem;
+       
+    }
+    
+
+}
